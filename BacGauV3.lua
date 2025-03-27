@@ -3,11 +3,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "BacGau Premium",
-         Animation = "Key System By huyz"
+         Animation = "Cảm Ơn Đã GetKey:>>"
          },
         Key = {
         KeySystem = true,
-        Title = "Key System",
+        Title = "Key Premium",
         Description = "",
         KeyLink = "",
         Keys = {"BACGAU"},
@@ -21,8 +21,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=72380238122851",
-       Size = {60, 60},
+       Image = "http://www.roblox.com/asset/?id=104046595838320",
+       Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
