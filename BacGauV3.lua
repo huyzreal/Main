@@ -8,14 +8,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Key = {
         KeySystem = true,
         Title = "Key Premium",
-        Description = "Tham Gia Server Discord Để Nhận Về Update Mới nhất",
+        Description = "Version : V4",
         KeyLink = "https://discord.gg/YsEXJ3r3",
-        Keys = {"BACGAU"},
+        Keys = {"TOILABACGAU"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Key Đúng Đang Chạy Kịch Bản...",
-       Incorrectkey = "Key Sai Vui Lòng Thử Lại...",
-       CopyKeyLink = "Đã Sao Chép Link GetKey..."
+        CorrectKey = "Key Success",
+       Incorrectkey = "Invalid Key",
+       CopyKeyLink = "Link Copied To Keyboard"
       }
     }
   })
@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Premium"})
+     local Tab1o = MakeTab({Name = "Script Premium Main"})
      
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "BacGau Main Loader V3",
+     Name = "BacGau Main Loader V4",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
