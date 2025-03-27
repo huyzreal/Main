@@ -2,13 +2,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Select Version [ Premium ]",
+         Title = "🇻🇳Select Version [ Premium ]🔥",
          Animation = "Cảm Ơn Đã GetKey:>>"
          },
         Key = {
         KeySystem = true,
         Title = "Key System",
-        Description = "Version: V4",
+        Description = "Version: V4💬",
         KeyLink = "https://discord.gg/YsEXJ3r3",
         Keys = {"TOILABACGAU"},
         Notifi = {
