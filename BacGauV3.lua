@@ -8,8 +8,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Key = {
         KeySystem = true,
         Title = "Key Premium",
-        Description = "",
-        KeyLink = "",
+        Description = "Tham Gia Server Discord Để Nhận Về Update Mới nhất",
+        KeyLink = "https://discord.gg/YsEXJ3r3",
         Keys = {"BACGAU"},
         Notifi = {
         Notifications = true,
