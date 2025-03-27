@@ -10,12 +10,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Key System",
         Description = "",
         KeyLink = "",
-        Keys = {"bacgau=3241113072000"},
+        Keys = {"BACGAU"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
+        CorrectKey = "Key Đúng Đang Chạy Kịch Bản...",
+       Incorrectkey = "Key Sai Vui Lòng Thử Lại...",
+       CopyKeyLink = "Đã Sao Chép Link GetKey..."
       }
     }
   })
