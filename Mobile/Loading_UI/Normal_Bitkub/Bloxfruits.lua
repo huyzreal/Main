@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "🇻🇳 Select Version [ Premium ]🔥 by huyz",
-         Animation = "Cảm Ơn Đã GetKey:>>"
+         Animation = "Phiên Bản : V4 Premium"
          },
         Key = {
         KeySystem = true,
