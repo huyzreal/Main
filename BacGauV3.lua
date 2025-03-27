@@ -9,8 +9,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         KeySystem = true,
         Title = "Key System ⚙️",
         Description = "Version: V4💬",
-        KeyLink = "https://discord.gg/YsEXJ3r3",
-        Keys = {"Free_3241113072000"},
+        KeyLink = "https://anotepad.com/notes/4qdshrbw",
+        Keys = {"D3FC219A"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Key Success",
