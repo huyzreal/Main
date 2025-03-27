@@ -7,10 +7,10 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          },
         Key = {
         KeySystem = true,
-        Title = "Key System",
+        Title = "Key System ⚙️",
         Description = "Version: V4💬",
         KeyLink = "https://discord.gg/YsEXJ3r3",
-        Keys = {"TOILABACGAU"},
+        Keys = {"Free_3241113072000"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Key Success",
