@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "🇻🇳Select Version [ Premium ]🔥",
+         Title = "🇻🇳 Select Version [ Premium ]🔥 by huyz",
          Animation = "Cảm Ơn Đã GetKey:>>"
          },
         Key = {
@@ -13,9 +13,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Keys = {"D3FC219A"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Key Success",
-       Incorrectkey = "Invalid Key",
-       CopyKeyLink = "Link Copied To Keyboard"
+        CorrectKey = "Key Success ✅",
+       Incorrectkey = "Invalid Key ❎",
+       CopyKeyLink = "Link Copied To Keyboard 🔐"
       }
     }
   })
