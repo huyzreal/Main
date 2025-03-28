@@ -31,11 +31,23 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Main"})
-     
+     local Tab2o = MakeTab({Name = "Script Kaitun"})
 ------- BUTTON
     
     AddButton(Tab1o, {
      Name = "Main Premium",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyzreal/Premium/refs/heads/main/Mobile/Loading_UI/Normal_Hub/Welcome/Premium"))()
+  end
+  })
+
+AddButton(Tab2o, {
+     Name = "Kaitun Premium",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
