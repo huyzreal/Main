@@ -32,11 +32,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Main"})
      local Tab2o = MakeTab({Name = "Script Kaitun"})
-     local Tab3o = MakeTab({Name = "Script Auto Fram Chest"})
-     local Tab4o = MakeTab({Name = "Script Auto Bounty"})
-     local Tab5o = MakeTab({Name = "Script Auto Leviathan"})
-     local Tab6o = MakeTab({Name = "Script Auto Do Quest V4"})
-     local Tab7o = MakeTab({Name = "Script Auto Auto Hop Server"})
+     local Tab3o = MakeTab({Name = "Auto Fram Chest"})
+     local Tab4o = MakeTab({Name = "Auto Bounty"})
+     local Tab5o = MakeTab({Name = "Auto Leviathan"})
+     local Tab6o = MakeTab({Name = "Auto Do Quest V4"})
+     local Tab7o = MakeTab({Name = "Auto Hop Server"})
 ------- BUTTON
     
     AddButton(Tab1o, {
