@@ -2,13 +2,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "🇻🇳 Select Version [ Free Limited Time ]🔥 by huyz",
-         Animation = "Loading GUI"
+         Title = "🇻🇳 Select Version [ Premium ]🔥 by huyz",
+         Animation = "Success ✅ Loading_GUI..."
          },
         Key = {
         KeySystem = true,
-        Title = "Key System ⚙️",
-        Description = "Version: Free💬",
+        Title = "Code System ⚙️",
+        Description = "Version: Premium💬",
         KeyLink = "https://anotepad.com/notes/ciqy7dc3",
         Keys = {"D3FC219A"},
         Notifi = {
@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Premium Main"})
+     local Tab1o = MakeTab({Name = "Script Main"})
      
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Main Loader V4",
+     Name = "Main Premium",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
