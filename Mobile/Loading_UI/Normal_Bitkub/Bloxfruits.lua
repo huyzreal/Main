@@ -2,13 +2,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "🇻🇳 Select Version [ Premium ]🔥 by huyz",
-         Animation = "Phiên Bản : V4 Premium"
+         Title = "🇻🇳 Select Version [ Free Limited Time ]🔥 by huyz",
+         Animation = "Loading GUI"
          },
         Key = {
         KeySystem = true,
         Title = "Key System ⚙️",
-        Description = "Version: V4💬",
+        Description = "Version: Free💬",
         KeyLink = "https://anotepad.com/notes/ciqy7dc3",
         Keys = {"D3FC219A"},
         Notifi = {
