@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "🇻🇳 Select Version [ Premium ]🔥 by huyz",
-         Animation = "Success ✅ Loading_GUI..."
+         Animation = "Success ✅"
          },
         Key = {
         KeySystem = true,
@@ -32,6 +32,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Main"})
      local Tab2o = MakeTab({Name = "Script Kaitun"})
+     local Tab3o = MakeTab({Name = "Script Auto Fram Chest"})
+     local Tab4o = MakeTab({Name = "Script Auto Bounty"})
+     local Tab5o = MakeTab({Name = "Script Auto Leviathan"})
+     local Tab6o = MakeTab({Name = "Script Auto Do Quest V4"})
+     local Tab7o = MakeTab({Name = "Script Auto Auto Hop Server"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -48,6 +53,66 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/huyzreal/Premium/refs
 
 AddButton(Tab2o, {
      Name = "Kaitun Premium",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyzreal/Premium/refs/heads/main/Mobile/Loading_UI/Normal_Hub/Welcome/Premium"))()
+  end
+  })
+
+AddButton(Tab3o, {
+     Name = "Fram Chest Premium",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyzreal/Premium/refs/heads/main/Mobile/Loading_UI/Normal_Hub/Welcome/Premium"))()
+  end
+  })
+
+AddButton(Tab4o, {
+     Name = "Auto Bounty Premium",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyzreal/Premium/refs/heads/main/Mobile/Loading_UI/Normal_Hub/Welcome/Premium"))()
+  end
+  })
+
+AddButton(Tab5o, {
+     Name = "Leviathan Premium",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyzreal/Premium/refs/heads/main/Mobile/Loading_UI/Normal_Hub/Welcome/Premium"))()
+  end
+  })
+
+AddButton(Tab6o, {
+     Name = "V4 Premium",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huyzreal/Premium/refs/heads/main/Mobile/Loading_UI/Normal_Hub/Welcome/Premium"))()
+  end
+  })
+
+AddButton(Tab7o, {
+     Name = "Hop Server Premium",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
